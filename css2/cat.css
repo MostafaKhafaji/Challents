@@ -1,0 +1,247 @@
+*{
+  padding: 0px;
+  margin: 0px; 
+  list-style-type: none; 
+  font-family: sans-serif;
+}
+a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+input:hover{
+   cursor: pointer; 
+}
+.clear{
+    clear: both;
+}
+
+ul li {
+    float: left;
+}
+body{
+    width:100%;
+    background-color: #17232f;
+    height: auto;
+}
+
+/* nav */
+/*Start Navbar*/
+.navbar{
+    width: 100%;
+    height: 73px;
+    padding: 0;
+    background-color: #131e29;
+}
+.navbar-brand{
+    width: 8.6383%;
+    margin-left: 3.95%;
+    height: 55px;
+    margin-right: 0;
+    padding-top: 0;
+}
+.navbar-brand img{ 
+    width: 41.52%;
+    height: 51.3px;
+    float: left;
+}
+.navbar-brand p{
+    color: white;
+    font-family: trench 100 thin;
+    font-size: 1em;
+    margin-bottom: 0;
+    position: relative;
+    top: 10px;
+    left: -10px;
+}
+.navbar-brand span{
+    font-size: 5.12px;
+    font-family: Offerings;
+    color: white;
+    position: relative;
+    top: -10px;
+    left: -10px;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link{
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #138c9f;
+}
+.nav-link{
+    font-family: Microsoft Yi Baiti;
+    font-size: 1.5em;
+}
+.nav-link img{    
+    height: 20px;
+    margin-right: 5px;
+}
+#currentchallenge{
+    width: 27.1px;
+    height: 26.3px;
+}
+input[type=search]{
+    background-color: #192735;
+    color: white;
+    width: 210.2px;
+    height: 37.4px;
+    border: 1px solid #192735;
+    border-radius: 18px;
+    margin-left: 9px;
+}
+input[type=search]:focus{
+    border: 1px solid #192735;
+    box-shadow: 0 0 0 0;
+}
+#NavBarProPic {
+    width: 37px;
+    height: 37px;
+    border-radius: 8px;
+    margin-right: 9px;
+}
+input[type=button]{
+    width: 113.2px;
+    height: 37px;
+    background-color: #138c9f;
+    color: white;
+    border: 1px solid #138c9f;
+    border-radius: 10px;
+    margin-right: 10.5px;
+}
+/*End Navbar*/
+
+/* Start Types */
+.typ p.top{
+    font-family: impact;
+    color: #fff;
+    font-size: 49px;
+    margin: 45px;
+}
+.typ .cat button{
+    width: 240px;
+    height: 44px;
+    background-color: #192735;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.typ .cat button.active{
+    border: 1px solid #146979;
+}
+.typ .cat button:hover{
+    border: 1px solid #146979;
+}
+/* End Types */
+
+/* Start Items */
+.items .item{
+    height: 354px;
+    width: 294px;
+    background-color: #131e29;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px 7px 7px;
+    margin-bottom: 11px;
+}
+.items ul,
+.items li{
+    float: none;
+}
+.items .item img{
+    margin-bottom: 10px;
+    vertical-align: top;
+}
+.items .item .info{
+    text-align: left;
+}
+.items .item .info img{
+    vertical-align: top;
+    border-radius: 35%;
+}
+.items .item .info ul{
+    display: inline-block;
+}
+.items .item .info .na{
+    font-size: 10px;
+    color: #fff;
+    font-family: sans-serif;
+}
+.items .item .info .ma{
+    font-size: 6.5px;
+    color: #86a7c7;
+    font-family: sans-serif;
+}
+.items .item .info .cal{
+    font-size: 7.9px;
+    color: #fff;
+    
+}
+.items .item .info .cal img{
+    margin-right: 8px;
+    width: 12px;
+    height: 11px;
+}
+.items .item .info .chal{
+    font-size: 8px;
+    color: #fff;
+}
+.items .item .info .chal img{
+    margin-right: 8px;
+    width: 14px;
+    height: 10px;
+}
+.items .item .point{
+    float: right;
+    text-align: right;
+}
+.items .item .point p{
+    font-size: 13px;
+    color: #fff;
+}
+.items .item .point .progress{
+    width: 104px;
+    height: 17px;
+    border-radius: 30px;
+    font-size: 11px;
+    margin-top: 30px;
+}
+.items .item .point .progress-bar{
+    width: 100%;
+    font-size: 11px;
+    line-height: 18px;
+}
+.items .item button{
+    width: 84px;
+    height: 19px;
+    font-size: 10.5px;
+    float: left;
+    border: none;
+    background-color: #138c9f;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+.items .item .inf{
+    margin-top: 20px;
+}
+.items .item .inf .nm{
+    color: #fff;
+    font-size: 10px;
+    display: inline-block;
+    margin-left: 26px;
+}
+.items .item .inf .nm img{
+    margin-right: 3px;
+    width: 12px;
+    height: 12px;
+}
+.items .item .inf .nm img.view{
+    margin-right: 3px;
+    width: 19px;
+}
+/* End Items */

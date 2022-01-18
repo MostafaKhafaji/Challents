@@ -1,0 +1,202 @@
+body{
+    background-color: #17232f;
+}
+/* Start Navbar */
+.navbar {
+    background: #131e29;  
+    border-radius: 0px; 
+    border: none;
+    height: 75px;
+    padding: 0px 70px;
+}
+.navbar .navbar-brand img{
+    width: 86px;
+    height: 42px;
+    margin-right: 35px;
+}
+.navbar-nav li a {
+    margin-top: 12px;
+    font-size: 16.6px;
+    color: #fff;
+}
+
+.navbar-nav li a.active {
+    background-color: transparent;
+    color: #138c9f;
+}
+
+.navbar-nav li a:hover {
+    background-color: transparent;
+    color: #138c9f;
+}
+.navbar-nav li a:focus,
+.navbar-nav li a:visited{
+    background-color: transparent;
+}
+.navbar-nav li a img{
+    margin-right: 7px;
+}
+
+
+.navbar .navbar-right .timer{
+    padding: 5px;
+    background-color: #192735;
+     margin-top: 20px;
+    border-radius: 50%;
+}
+.navbar .navbar-right input{
+   width: 210px;
+    height: 37px;
+    margin-top: 17px;
+    border-radius: 25px;
+    border: none;
+    background-color: #192735;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.navbar .navbar-right .user img{
+    width: 38px;
+    height: 38px;
+    margin-top: 17px;
+}
+.navbar .navbar-right button{
+   width: 113px;
+    height: 37px;
+    margin-top: 17px;
+    border-radius: 25px;
+    border: none;
+    background-color: #138c9f;
+    margin-left: 15px;
+    color: #fff;
+    font-size: 19.5px;
+}
+/* End Navbar */
+
+/* Start Types */
+.typ p.top{
+    font-family: impact;
+    color: #fff;
+    font-size: 49px;
+    margin: 45px;
+}
+.typ .cat button{
+    width: 240px;
+    height: 44px;
+    background-color: #192735;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.typ .cat button.active{
+    border: 1px solid #146979;
+}
+.typ .cat button:hover{
+    border: 1px solid #146979;
+}
+/* End Types */
+
+/* Start Items */
+.items .item{
+    height: 354px;
+    width: 294px;
+    background-color: #131e29;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px 7px 7px;
+    margin-bottom: 11px;
+}
+.items .item img{
+    margin-bottom: 10px;
+    vertical-align: top;
+}
+.items .item .info{
+    text-align: left;
+}
+.items .item .info img{
+    vertical-align: top;
+    border-radius: 35%;
+}
+.items .item .info ul{
+    display: inline-block;
+}
+.items .item .info .na{
+    font-size: 10px;
+    color: #fff;
+    font-family: sans-serif;
+}
+.items .item .info .ma{
+    font-size: 6.5px;
+    color: #86a7c7;
+    font-family: sans-serif;
+}
+.items .item .info .cal{
+    font-size: 7.9px;
+    color: #fff;
+    
+}
+.items .item .info .cal img{
+    margin-right: 8px;
+    width: 12px;
+    height: 11px;
+}
+.items .item .info .chal{
+    font-size: 8px;
+    color: #fff;
+}
+.items .item .info .chal img{
+    margin-right: 8px;
+    width: 14px;
+    height: 10px;
+}
+.items .item .point{
+    float: right;
+    text-align: right;
+}
+.items .item .point p{
+    font-size: 13px;
+    color: #fff;
+}
+.items .item .point .progress{
+    width: 104px;
+    height: 17px;
+    border-radius: 30px;
+    font-size: 11px;
+    margin-top: 30px;
+}
+.items .item .point .progress-bar{
+    width: 100%;
+    font-size: 11px;
+    line-height: 18px;
+}
+.items .item button{
+    width: 84px;
+    height: 19px;
+    font-size: 10.5px;
+    float: left;
+    border: none;
+    background-color: #138c9f;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+.items .item .inf{
+    margin-top: 20px;
+}
+.items .item .inf .nm{
+    font-size: 10px;
+    display: inline-block;
+    margin-left: 26px;
+}
+.items .item .inf .nm img{
+    margin-right: 3px;
+    width: 12px;
+    height: 12px;
+}
+.items .item .inf .nm img.view{
+    margin-right: 3px;
+    width: 19px;
+}
+/* End Items */

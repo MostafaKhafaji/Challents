@@ -1,0 +1,326 @@
+body{
+    background-color: #17232f;
+}
+/* Start Navbar */
+.navbar {
+    background: #131e29;  
+    border-radius: 0px; 
+    border: none;
+    height: 75px;
+    padding: 0px 70px;
+}
+.navbar .navbar-brand img{
+    width: 86px;
+    height: 42px;
+    margin-right: 35px;
+}
+.navbar-nav li a {
+    margin-top: 12px;
+    font-size: 16.6px;
+    color: #fff;
+    background-color: transparent;
+}
+.navbar-nav li a.active {
+    background-color: transparent;
+    color: #138c9f;
+}
+.navbar-nav li a:hover {
+    background-color: transparent;
+    color: #138c9f;
+}
+.navbar-nav li a:focus,
+.navbar-nav li a:visited {
+    background-color: transparent;
+}
+.navbar-nav li a img{
+    margin-right: 7px;
+}
+.navbar .navbar-right .timer{
+    padding: 5px;
+    background-color: #192735;
+     margin-top: 20px;
+    border-radius: 50%;
+}
+.navbar .navbar-right input{
+   width: 210px;
+    height: 37px;
+    margin-top: 17px;
+    border-radius: 25px;
+    border: none;
+    background-color: #192735;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.navbar .navbar-right .user img{
+    width: 38px;
+    height: 38px;
+    margin-top: 17px;
+}
+.navbar .navbar-right button{
+   width: 113px;
+    height: 37px;
+    margin-top: 17px;
+    border-radius: 25px;
+    border: none;
+    background-color: #138c9f;
+    margin-left: 15px;
+    color: #fff;
+    font-size: 19.5px;
+}
+/* End Navbar */
+
+.noti{
+    padding: 44px 70px;
+}
+.noti .day .top{
+    font-size: 13px;
+    font-family: sans-serif;
+    color: #fff;
+    background-color: #131e29;
+    border-radius: 25px;
+    border: none;
+    height: 35px;
+    width: 99px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 34px;
+    margin: 6px 0px;
+}
+.noti .day .vl{
+    border-left: 2px solid #a8acb0ff;
+    height: 24px;
+    margin-left: 45px;
+}
+.noti .day .today{
+    margin-top: 25px;
+    margin-left: 31px;
+    border-bottom: 1.5px solid #131e29ff;
+    padding-bottom: 15px;
+    width: 621px;
+}
+.noti .day .today span{
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #7593b0ff;
+    font-weight: bold;
+    margin-right: 30px;
+}
+.noti .day .today img.user{
+    width: 43px;
+    height: 43px;
+    margin: 0px 25px 0px 30px;
+}
+.noti .day .today h4{
+    display: inline-block;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: bold;
+}
+.noti .day .today p{
+    display: inline-block;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #fff;
+}
+.noti .day .today span.no{
+    font-size: 15px;
+}
+.noti .day .ltoday{
+    margin-top: 25px;
+    margin-left: 31px;
+    border-bottom: none;
+    padding-bottom: 15px;
+    width: 621px;
+}
+.noti .day .ltoday span{
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #7593b0ff;
+    font-weight: bold;
+    margin-right: 30px;
+}
+.noti .day .ltoday img.chal{
+    margin-left: 63px;
+    margin-right: -6px;
+}
+.noti .day .ltoday img.user{
+    width: 43px;
+    height: 43px;
+    margin: 0px 25px 0px 30px;
+}
+.noti .day .ltoday h4{
+    display: inline-block;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: bold;
+}
+.noti .day .ltoday p{
+    display: inline-block;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #fff;
+}
+.noti .day .ltoday span.no{
+    font-size: 15px;
+}
+.noti .day .ltoday div.mess{
+    padding: 0px 30px;
+    border: 1px solid #7593b0ff;
+    height: 37px;
+    border-radius: 10px;
+    margin-left: 195px;
+    line-height: 33px;
+    background-color: #131e29ff;
+    margin-bottom: 45px;
+}
+.noti .day .ltoday div.mess p{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ecececff;
+}
+.noti .day .ltoday .ready{
+    width: 99px;
+    height: 32px;
+    background-color: #138c9fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: bold;
+    margin: 10px 15px 0px 235px;
+}
+.noti .day .ltoday .can{
+    width: 99px;
+    height: 32px;
+    background-color: #ff5252ff;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.reco .top{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #f2f2f2ff;
+    border-bottom: 2px solid #131e29ff;
+    padding-bottom: 7px;
+    width: 325px;
+}
+
+.reco .chalng{
+    text-align: left;
+    border-bottom: 1.5px solid #131e29ff;
+    padding-bottom: 15px;
+    width: 325px;
+}
+.reco .chalng img.usr{
+    vertical-align: top;
+    width: 44px;
+    height: 44px;
+}
+.reco .chalng ul{
+    display: inline-block;
+}
+.reco .chalng .na{
+    font-size: 12px;
+    color: #fff;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+.reco .chalng .ma{
+    font-size: 7px;
+    color: #86a7c7;
+    font-family: sans-serif;
+}
+.reco .chalng span{
+    font-size: 25px;
+    color: #86a7c7ff;
+    margin-left: 175px;
+}
+.reco p.bot{
+    color: #86a7c7ff;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 25px
+}
+.reco p.top2{
+    color: #86a7c7ff;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.reco .topusr{
+    text-align: left;
+    
+}
+.reco .topusr img.usr{
+    vertical-align: top;
+    width: 44px;
+    height: 44px;
+}
+.reco .topusr ul{
+    display: inline-block;
+}
+.reco .topusr .na{
+    font-size: 12px;
+    color: #fff;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+.reco .topusr .ma{
+    font-size: 7px;
+    color: #86a7c7;
+    font-family: sans-serif;
+}
+.reco .topusr span{
+    font-size: 25px;
+    color: #86a7c7ff;
+    margin-left: 175px;
+}
+.reco .work{
+    padding: 5px;
+    margin-bottom: 15px;
+}
+.reco .work .inf{
+    text-align: center;
+    background-color: #fff;
+    width: 325px;
+    height: 52px;
+    margin-top: 5px;
+    line-height: 47px;
+}
+.reco .work .inf .nm{
+    font-size: 13px;
+    display: inline-block;
+}
+.reco .work .inf .nm img{
+    margin-right: 3px;
+    width: 22px;
+    height: 22px;
+}
+.reco .work .inf .nm img.view{
+    margin-right: 3px;
+    width: 35px;
+}
+.reco .work .inf .mi{
+    font-size: 13px;
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 50px
+}
+.reco .work .inf .mi img{
+    margin-right: 3px;
+    width: 22px;
+    height: 22px;
+}

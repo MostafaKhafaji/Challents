@@ -1,0 +1,564 @@
+*{
+  padding: 0px;
+  margin: 0px; 
+  list-style-type: none; 
+  font-family: sans-serif;
+}
+a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.clear{
+    clear: both;
+}
+@font-face{
+    font-family:'OpenSans';
+    src:url('../fonts/OpenSans-Regular.ttf');
+}
+@font-face{
+    font-family:'Offerings';
+    src:url('../fonts/Offerings Regular_1.otf');
+}
+ul li {
+    float: left;
+    list-style-type: none;
+}
+body{
+    width:100%;
+    background-color: #17232f;
+     height: auto;
+}
+
+/* NavBar */
+.navbar{
+    width: 100%;
+    height: 73px;
+    padding: 0;
+    background-color: #131e29;
+}
+.navbar-brand{
+    width: 8.6383%;
+    margin-left: 3.95%;
+    height: 55px;
+    margin-right: 0;
+    padding-top: 0;
+}
+.navbar-brand img{ 
+    width: 41.52%;
+    height: 51.3px;
+    float: left;
+}
+.navbar-brand p{
+    color: white;
+    font-family: trench 100 thin;
+    font-size: 1em;
+    margin-bottom: 0;
+    position: relative;
+    top: 10px;
+    left: -10px;
+}
+.navbar-brand span{
+    font-size: 5.12px;
+    font-family: Offerings;
+    color: white;
+    position: relative;
+    top: -10px;
+    left: -10px;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link{
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #138c9f;
+}
+.nav-link{
+    font-family: Microsoft Yi Baiti;
+    font-size: 1.5em;
+}
+.nav-link img{    
+    height: 20px;
+    margin-right: 5px;
+}
+#currentchallenge{
+    width: 27.1px;
+    height: 26.3px;
+}
+input[type=search]{
+    background-color: #192735;
+    color: white;
+    width: 210.2px;
+    height: 37.4px;
+    border: 1px solid #192735;
+    border-radius: 18px;
+    margin-left: 9px;
+}
+input[type=search]:focus{
+    border: 1px solid #192735;
+    box-shadow: 0 0 0 0;
+}
+#NavBarProPic {
+    width: 37px;
+    height: 37px;
+    border-radius: 8px;
+    margin-right: 9px;
+}
+input[type=button]{
+    width: 113.2px;
+    height: 37px;
+    background-color: #138c9f;
+    color: white;
+    border: 1px solid #138c9f;
+    border-radius: 10px;
+    margin-right: 10.5px;
+}
+
+
+
+
+
+
+
+/* Cover Picture */
+
+.cover{
+    width: 100%;
+    height: 311px;
+    position: absolute;
+}
+
+/* Profile Picture */
+#profile{
+    width: 249px;
+    height: 249px;
+    position: absolute;
+    top: 240px;
+    border-radius: 70px;
+    margin-left: 60px;
+}
+#medal{
+    width: 65px;
+    height: 65px;
+    background-color: #17232f;
+    border-radius: 50px;
+    position: absolute;
+    top: 450px;
+    margin-left: 152px;
+}
+#medal img{
+    margin: 10px;
+}
+
+
+/* Bio */
+.bio{
+    margin-left: 365px;
+    margin-top: 320px;
+}
+#ProfileName{
+    font-size: 2em;
+    color: white;
+    margin-bottom: 0px;
+}
+#UserName{
+    color: #86a7c7;
+    margin-left: 15px;
+}
+#specialty{
+    color: #138c9f;
+    margin-bottom: 10px;
+}
+#Rank{
+    color: #86a7c7;
+    margin-bottom: 10px;
+}
+#RankNumber{
+    color: #86a7c7;
+    margin-right: 13px;
+}
+.fa-star ,.fa-star-half{
+    margin-left: 6px;
+    color: #efa213;
+}
+#EditProfile{
+    width: 113px;
+    height: 33px;
+    border: 1px solid #86a7c7;
+    border-radius: 50px;
+    background-color: #192735;
+    color: white;
+    margin-left: 32px;
+}
+#EditProfile:hover{
+    cursor: pointer;
+    
+}
+#EditProfile:focus{
+    border: 1px solid #86a7c7;
+    border-radius: 50px;
+}
+/*Contacts*/
+
+.contacts{
+    margin-left: 335px;
+    margin-top: 6px;
+}
+.contacts li{
+    width:180px;
+    height: 32px;
+    background-color: #192735;
+    margin-right: 5px;
+    border-radius: 50px;
+}
+.contacts li:last-child{
+    background-color: #17232f;
+}
+.contacts img{
+    float: left;
+    width: 20px;
+    height: 18px;
+    margin-top:7px ;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+.contacts p{
+    color: white;
+    line-height: 32px;
+    font-family: OpenSans;
+}
+
+
+
+/*USER Information*/
+.UserInformation{
+    margin-left: 85px;
+    margin-top: 20px;
+   
+}
+
+ /*User Fields*/
+.fields{
+    width: 100%;
+    height: 70px;
+    margin-bottom: 22px;
+}
+.fields li{
+    margin-left: 5px;
+    width: 70px;
+    margin-bottom: 10px;
+    height: 30px;
+    background-color: #192735 ;
+    border-radius: 50px; 
+}
+.fields p{
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-size: .75em;
+}
+ /*Works*/
+ .Userworks ,.UserSkills{
+    width: 100% ;
+ }
+ .keyWork ,.keySkills{
+    width: 100%;
+    height: 32px;
+    background-color: #192735;
+    border-radius: 20px;
+    margin-bottom: 20px;
+ }
+ .keyWork ,.keySkills p{
+    color: white;
+    text-align: center;
+    line-height: 32px;
+    font-family: openSans;
+ }
+ 
+ /*work Name*/
+ .work{
+    width: 100%;
+    margin-bottom: 20px;
+ }
+.work ul{
+    width: 100%;
+    height: 25px;
+    margin-bottom: 0px;
+}
+.work ul li{
+    width: 50%;
+    height: 25px;
+}
+.work ul li:last-child{
+    float: right;
+     width: 34%;
+}
+.work ul li p{
+    color: white;
+    font-size: 1em;
+}
+.work ul li div{
+    width: 100%;
+    height: 25px;
+    background-color: #192735;
+    border-radius: 15px;
+}
+.work ul li div p{
+    color: #138c9f;
+    font-size: .75em;
+    text-align: center;
+    line-height: 25px;
+}
+
+/*work Address*/
+.work .workAddress li:first-child{
+    width: 66%;
+    
+}
+.work .workAddress li:last-child{
+    width: 34%;
+    
+}
+.work .workAddress li pre{
+    font-size: .6em;
+    color: #86a7c7;   
+
+}
+.work .workAddress li p{
+    color: #138c9f;
+    font-size: .75em;
+    text-align: center;
+    line-height: 25px;
+}
+/* Skills*/
+.UserSkills ul{
+    width: 100%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+.UserSkills ul li{
+    width: 50%;
+    height: 25px;
+}
+.UserSkills ul li:last-child{
+    float: right;
+     width: 34%;
+}
+.UserSkills ul li p{
+    color: white;
+    font-size: 1em;
+}
+.UserSkills ul li div{
+    width: 100%;
+    height: 25px;
+    background-color: #192735;
+    border-radius: 15px;
+}
+.UserSkills ul li div p{
+    color: #138c9f;
+    font-size: .75em;
+    text-align: center;
+    line-height: 25px;
+}
+/* posts */
+.posts{
+    width: 100%;
+    margin-left: 29px;
+}
+.timeline-about{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 55px;
+}
+.timeline-about li{
+    width: 80px;
+    border-bottom: 1px solid #969da3;
+    text-align: center;
+    margin-right: 10px;
+}
+.timeline-about li:last-child{
+    border-bottom: none;
+}
+.timeline-about li a{
+    color: white;
+    font-family: OpenSans;
+}
+.timeline-about li a img{
+    width: 9px;
+    height: 11px;
+    margin-right: 5px;
+    margin-bottom: 2px;
+    float: none;
+}
+
+
+.challenge{
+    margin-bottom: 15px;
+}
+.challengeProfilePic{
+    width: 55px;
+    height: 55px;
+    border-radius: 15px;
+}
+
+.challengBackground{
+    width: 409px;
+    margin-left: 20px;
+    height: 436px;
+    background-color: #131e29;
+    border-radius: 10px;
+}
+.challengBackground img{
+    width: 387px;
+    margin: 20px 11px;
+}
+
+/* Challenge Duration */
+.challengeDuration , .challengeDate{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 0;
+}
+.challengeDuration li{
+    width: 50%;
+    margin-right:7.5%;
+    
+}
+.challengeDuration li img{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0 5px 0 11px;
+
+}
+.challengeDuration li p{
+    font-size: 1.5em;
+    color: white;
+    line-height: .75;
+    font-family: openSans;
+}
+.challengeDuration li p span{
+    font-size: .5em;
+    color: #acb0b3;
+}
+.challengeDuration li:last-child{
+    width: 40%;
+    margin-right: 0;
+}
+.progress{
+    width: 100%;
+    height: 24px;
+    float: right;
+    border-radius: 50px;
+}
+
+/* Challenge Date*/
+.challengeDate{
+    margin-bottom: 20px;
+}
+.challengeDate li:first-child{
+    width: 75%;
+    margin-top: 0px;
+}
+.challengeDate li img{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0 5px 0 11px;
+}
+.challengeDate li p{
+    color: white;
+    font-family: openSans;
+    font-size: .9em;
+    margin-bottom: 0px;
+}
+
+.challengeDate li:last-child{
+    width: 20%;
+    float: right;
+}
+.challengeDate li:last-child p{
+    float: left;
+    font-size: 1.5em;
+    font-family:openSans ;
+    margin-top: -9px;
+}
+.challengeDate li:last-child img{
+    margin: 0px 0 0 0;
+}
+
+
+/* Likes/views/favourits */
+.challengeInteracts {
+    width: 100%;
+    height: 50px;
+}
+.challengeInteracts li{
+    width: 16%;
+    margin-left: 20px;
+}
+.challengeInteracts li:first-child{
+    width: 29%;
+    float: left;
+    margin-left: 11px;
+    margin-right: 15px;
+}
+.challengeInteracts li:first-child input{
+    width: 100%;
+    height: 28px;
+    background-color: #138c9f;
+    border: 1px solid #138c9f;
+    border-radius: 11px;
+    color: white;
+    font-family: openSans;
+}
+.challengeInteracts li:first-child input:hover{
+    cursor: pointer;
+}
+.challengeInteracts li img{
+     margin: 4px 4px 0 0;
+     line-height: 1;
+     float: right;
+}
+.challengeInteracts li:nth-child(2) img{
+    width: 25px;
+    height: 16px;
+    background-size: 100% 100%;
+   
+}
+.challengeInteracts li:nth-child(3) img{
+    width: 18px;
+    height: 17px;
+}
+.challengeInteracts li:nth-child(4) img{
+    width: 16.5px;
+    height: 17px;
+}
+.challengeInteracts li p{
+    color: #86a7c7;
+    font-family: Offerings ;
+    line-height: 1.5;
+    font-size: 1em;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,128 @@
+body{
+    background-color: #192735ff;
+    height: 2000px;
+}
+/*sart navbar*/
+.navbar{
+    opacity: 0.62; 
+}
+
+.navbar .nav-link ,
+.navbar-brand{
+    color: #bbbdc1ff;
+    padding: 0px;
+ 
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.navbar .nav-link {
+    margin: 0 20px;
+}
+/*end navbar*/
+
+.form-container{
+    position: relative;
+    top: 70px;
+    left: 7%;
+    width: 85%;
+    height: 900px;
+    background-color: #f5f8f9ff;
+    border-radius: 6px;
+    display: none;
+}
+.tabs-section .tab-switch li{
+    color: #FFF;
+    background-color: #138c9fff;
+    font-family: Microsoft Yi Baiti;
+    font-size: 25px;
+    font-weight: bold;
+    width: 250px;
+    display: inline-block;
+    padding: 8px;
+    cursor: pointer;
+    top: 70px;
+    margin-bottom: 50px
+}
+.tabs-section .tab-switch .tab-one{
+     margin-right: 26px;
+     border-radius: 50px 0 0 50px;
+}
+.tabs-section .tab-switch .tab-two{
+      margin-left: 26px;
+      border-radius: 0 50px 50px 0;
+}
+.tabs-section .tab-switch .tab-one ,.tabs-section .tab-switch .tab-two{
+    position: relative;
+  
+}
+.tabs-section .tab-switch .tab-one:after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-width: 27px;
+    border-style: solid;
+    border-color: #138c9fff transparent transparent #138c9fff;
+    top: 0px;
+    border-radius: 0 0 0 6px;
+    right: -52px;
+ 
+
+}
+.tabs-section .tab-switch .tab-two:after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-width: 27px;
+    border-style: solid;
+    border-color: transparent #138c9fff #138c9fff transparent ;
+    top: -1px;
+    border-radius: 0 6px 0 0;
+    left: -52px;
+}
+.form{
+    position: relative;
+    width: 60%;
+    left: 20%;
+    top: 40px;
+  
+}
+
+.icons a img{
+    margin: 12px 15px;
+}
+h2{
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+h3{
+    
+    color: #bbbdc1ff;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+h3:after , h3:before {
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 4px;
+    background-color: #bbbdc1ff;
+    margin: 5px
+    
+}
+.opacity {
+    opacity: 0.6;
+}
+
+.checkbox{
+    color: #bbbdc1ff;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+

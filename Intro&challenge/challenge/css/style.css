@@ -1,0 +1,234 @@
+/*body*/
+body{
+    background-color: #17232fff;
+}
+/*start navbar*/
+
+
+
+
+/*end navbar
+/*start cover*/
+.cover{
+    width: 1370px;
+    height: 430px;
+    background-color: #138597ff;
+    position: relative;
+}
+.cover .overlay img{
+    position: absolute;
+    margin: 80px 113px;
+    
+}
+/*end cover*/
+
+/*start tabs section*/
+.container{
+    position: relative;
+    top: 300px;
+}
+
+
+.tabs-section .tab-switch li{
+    color: #FFF;
+    background-color: #138597ff;
+    font-family: Jura;
+    font-size: 22px;
+    width: 230px;
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.tabs-section .tab-switch .tab-one{
+     margin-right: 26px;
+     border-radius: 50px 0 0 50px;
+}
+.tabs-section .tab-switch .tab-two{
+      margin-left: 26px;
+      border-radius: 0 50px 50px 0;
+}
+.tabs-section .tab-switch .tab-one ,.tabs-section .tab-switch .tab-two{
+    position: relative;
+  
+}
+.tabs-section .tab-switch .tab-one:after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-width: 27px;
+    border-style: solid;
+    border-color: #138597 transparent transparent #138597;
+    top: 0px;
+    border-radius: 0 0 0 6px;
+    right: -52px;
+ 
+
+}
+.tabs-section .tab-switch .tab-two:after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-width: 27px;
+    border-style: solid;
+    border-color: transparent #138597 #138597 transparent ;
+    top: -1px;
+    border-radius: 0 6px 0 0;
+    left: -52px;
+}
+.opacity {
+    opacity: 0.6;
+}
+.add {
+    position: relative;
+    display: none;
+    right: 19%;
+    float: right;
+    bottom: 80px;
+    
+}
+.brief-content , .timing-content , .rules-content , .hashtags-content , .prize-content , .comments-content , .first-logo-content , .second-logo-content , .thired-logo-content {
+    width: 80%;
+    border-left: 2px solid #86a7c7ff;
+    margin-left: 80px;
+    padding-left: 70px;
+    margin-top: -36px;
+    padding-bottom: 70px;
+    padding-top: 30px;  
+}
+.tabs-content .brief , .tabs-content .timing , .tabs-content .rules , .tabs-content .hashtags , .tabs-content .prize , .tabs-content  .comments , .tabs-content .first-logo , .tabs-content .second-logo , .tabs-content .thired-logo{
+    width: 165px;
+    padding: 10px;
+    border: 1px solid #86a7c7ff;
+    border-radius: 28px;
+    color: #FFF;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 48px;
+    font-family: jura;
+    font-size: 21px;
+}
+.brief-content p {
+    width: 820px; 
+    height: 270px;
+    padding: 25px;
+    color: #CCC;
+    background-color: #131e29ff;
+    font-family: sans-serif;
+    border: 1px solid #7593b0ff;
+    border-radius: 10px;
+    
+}
+.progress {
+    height: 33px ;
+    color: #FFF ;
+    font-family: Jura ;
+    font-size: 22px;
+    border-radius: 16px;
+    position: relative;
+    top: 25px;
+    left: 20px;
+}
+.time{
+    color: #FFF;
+    display: block;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-family: Offerings;
+}
+.date {
+    font-family: Offerings;
+    font-size: 15px;
+    color: #FFF;
+    
+}
+.time span{
+    color: #ffffffa8;
+    font-size: 13px
+    
+}
+.rules-info {
+    background-color: #131e29ff;
+    width: 820px;
+    height: 215px;
+    border: 1px solid #7593b0ff;
+    border-radius: 10px;
+}
+.rules-content button {
+    width: 135px;
+    height: 37px;
+    border-radius: 12px;
+    margin-top: 35px;
+    margin-left: 60px;
+    font-family: Microsoft Yi Baiti;
+    font-size: 20px;
+    letter-spacing: 1.25px;
+    font-weight: bold;
+}
+.hashtags-content .hashtags-list li {
+    padding: 12px;
+    margin: 15px;
+    border: 1px solid #86a7c7ff;
+    border-radius: 20px;
+    color: #FFF;
+    text-align: center;
+    display: inline-block;
+    font-family: jura;
+    font-size: 20px;
+    font-weight: bold;
+}
+.first-logo-content .first-logo-list li , .second-logo-content .second-logo-list li , .thired-logo-content .thired-logo-list li {
+    padding: 12px;
+    margin-left: 0;
+    margin-right: 15px;
+    border: 1px solid #86a7c7ff;
+    border-radius: 20px;
+    color: #FFF;
+    text-align: center;
+    display: inline-block;
+    font-family: jura;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.first-logo-content .first-logo-list .points , .second-logo-content .second-logo-list .points , .thired-logo-content .thired-logo-list .points{
+    color: #f8c068ff;
+    font-size: 28px;
+    padding: 5px 20px;
+    
+}
+.prize-content img {
+    margin: 30px;
+}
+
+.comments-content input {
+    width: 820px;
+    padding: 20px;
+    font-size: 12px;
+    color: #ecececff;
+    background-color: #131e29ff;
+    font-family: sans-serif;
+    border: 1px solid #7593b0ff;
+    border-radius: 10px;
+}
+.first-logo-discription , .second-logo-discription , .thired-logo-discription{
+    background-color: #131e29ff;
+    width: 820px;
+    
+    border-radius: 10px;
+    border: 1px solid #131e29ff;
+}
+.first-logo-discription p , .second-logo-discription p , .thired-logo-discription p{
+    color: #ecececff;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 20px;
+    
+}
+
+/*end tabs section*/
